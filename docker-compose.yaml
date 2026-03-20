@@ -1,0 +1,11 @@
+services:
+  count_pacient:
+    build: .
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - /home/alex/Рабочий стол/Projects/Counting_pacients_clinic/database:/app/database
+
+
+
